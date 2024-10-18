@@ -1,0 +1,143 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  font-size: 21px;
+}
+
+footer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer-top {
+  background-color: #1a1a3f;
+  color: #fff;
+  padding: 30px 40px 200px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-section h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.menu-links a {
+  color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.signup-button button {
+  background-color: #fff;
+  color: #1a1a3f;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.company {
+  padding-left: 50px;
+}
+
+.footer-bottom {
+  gap: 40px;
+  background-color: #fff;
+  color: #000;
+  padding: 20px 40px;
+  justify-content:space-between;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  display: flex;
+  position: relative;
+  z-index: 100;
+  bottom: 38px;
+}
+
+.signup-section {
+  max-width: 400px;
+  margin-top: 63px;
+}
+.webtech-logo{
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.signup-section p {
+  margin-bottom: 10px;
+  margin-top: 40px;
+  font-weight: 500;
+}
+
+.newsletter-form {
+  display: flex;
+  border: 2px solid #1a1a3f;
+  border-radius: 36px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 20px;
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: 20px;
+}
+
+.newsletter-form button {
+  background-color: #1a1a3f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 28px;
+  margin: 4px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-right: 100px;
+}
+
+.footer-links h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.footer-bottom-text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 500;
+  border-top: 1px solid #ccc;
+  /* padding-top: 10px; */
+  /* margin-top: 20px; */
+  margin: 20px;
+  padding: 20px;
+}
