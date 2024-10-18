@@ -1,8 +1,8 @@
-# webtech-kn
-NEXT_PUBLIC_APIKEY=your-api-key
-NEXT_PUBLIC_AUTHDOMAIN=your-auth-domain
-NEXT_PUBLIC_PROJECTID=your-project-id
-NEXT_PUBLIC_STORAGEBUCKET=your-storage-bucket
-NEXT_PUBLIC_MESSAGINGSENDERID=your-messaging-sender-id
-NEXT_PUBLIC_APPID=your-app-id
-NEXT_PUBLIC_MONGODB_URI=mongodb://localhost:27017/Vyappar
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
